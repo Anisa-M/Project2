@@ -1,13 +1,19 @@
 html {
     background-color: #FFFFFF
 }
-
-P {
-    color: black;
+h1 {
+    color: darkblue;
+    font-family: Helvetica, Arial, Georgia;
+}
+h2 {
+    color: darkblue;
+    font-family: Helvetica, Arial, Georgia;
+}
+#maincontent {
+    color: darkblue;
     font-family: Helvetica, Arial, Georgia;
     font-size: 14px;
     text-align: left;
-}
 }
 #description {
     color: #A3A3A3;
