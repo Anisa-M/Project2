@@ -50,15 +50,15 @@ nav#hori ul li a:hover {
 #monarchBody {
     background-color: black;
 }
-#pictures h1, #pictures h2, #climate h2, footer P {
+.pictures h1, .pictures h2, #climate h2, footer P {
     color: orange;
 }
-#pictures P, #climate P {
+.pictures P, #climate P {
     color: white;
     font-size: 18px;
     font-family: Arial;
 }
-#pictures {
+.pictures {
   float: right;
   display: block;
   margin-left: auto;
@@ -66,7 +66,7 @@ nav#hori ul li a:hover {
   width: 50%;
   height: 200px;
 }
-#pictures {
+.pictures {
     display: flex;
     align-items: flex-start; /* Align items at the top, or use 'center' for vertical centering */
     gap: 15px; /* Space between image and text */
