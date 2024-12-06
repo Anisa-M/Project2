@@ -10,7 +10,6 @@ P {
     font-size: 18px;
     font-family: Helvetica, Arial, Georgia;
 }
-
 nav#hori {
     display: flex; /* Use Flexbox for alignment */
     justify-content: center; /* Center the nav items horizontally */
