@@ -11,25 +11,34 @@ P {
     font-family: Helvetica, Arial, Georgia;
 }
 
+nav#hori {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Center the nav items horizontally */
+    align-items: flex-start; /* Align items at the top of the container */
+}
 nav#hori ul {
     list-style-type: none;
     padding: 0;
-    margin: 10;
+    margin: 10 auto; /* Center the navbar horizontally */
     overflow: auto;
+    display: flex; /* For centering */
+    justify-content: center; /* Center items horizontally */
 }
 nav#hori ul li {
-    float: left;
     margin: 0 10px;
+    flex: 1 1 auto; /* Distribute available space evenly */
 }
 nav#hori ul li a {
-    display: block;
+    display: flex; /* Use flexbox on the links */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    text-align: center;
     background-color: darkblue;
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    text-align: center;
-    width: 100px;
-    padding: 7px 0px 8px 0px;
+    width: 120px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
     border-radius: 3px;
 }
 nav#hori ul li a:hover {
