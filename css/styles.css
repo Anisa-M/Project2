@@ -26,7 +26,7 @@ nav#hori {
 nav#hori ul {
     list-style-type: none;
     padding: 0;
-    margin: 10 auto; /* Center the navbar horizontally */
+    margin: auto; /* Center the navbar horizontally */
     overflow: auto;
     display: flex; /* For centering */
     justify-content: center; /* Center items horizontally */
@@ -70,7 +70,7 @@ nav#hori ul li a:hover {
   float: right;
   display: block;
   margin-left: auto;
-  margin-right: 50;
+  margin-right: 50px;
   width: 50%;
   height: 200px;
 }
